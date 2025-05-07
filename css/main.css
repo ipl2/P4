@@ -1,0 +1,42 @@
+/*DEVELOPER: Isabel P Lopez Paez, IS117-004, Spring, 2025 */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.5rem;
+}
+
+.load-more-btn {
+    background-color: #f0f0f0;  /* Light gray background */
+    border: 1px solid #cccccc;  /* Light gray border */
+    color: #333;  /* Dark text color */
+    padding: 10px 30px;  /* Spacing around the text */
+    border-radius: 30px;  /* Rounded corners */
+    font-size: 16px;  /* Font size */
+    transition: background-color 0.3s ease;  /* Smooth hover effect */
+  }
+  
+  .load-more-btn:hover {
+    background-color: #e0e0e0;  /* Slightly darker gray on hover */
+    cursor: pointer;  /* Change cursor to pointer */
+  }
+  
+  .card {
+    height: 400px; /* Fixed card height */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .embed-responsive {
+    width: 100%;  /* Ensure the video takes full width of the card */
+    height: 250px;  /* Set the height of the video to ensure it stays consistent */
+    margin: 0 auto;  /* Center the video */
+  }
+  
+
+  
